@@ -1,2 +1,2 @@
 # Python
-This repository contain my Python scripts from HackerRank &amp; others
+This repository contain my Python scripts.
