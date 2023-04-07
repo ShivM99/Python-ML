@@ -1,2 +1,2 @@
 # Python
-This repository contain my Python scripts and ML projects.
+This repository contain my ML projects and Python scripts.
