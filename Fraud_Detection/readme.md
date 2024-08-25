@@ -3,7 +3,7 @@ FraudLib is a Python library for fraud detection, providing tools and algorithms
 
 ## Features
 - Implements a variety of fraud detection algorithms, including:
-  > Supervised learning techniques (e.g., logistic regression, random forests)
+  > Supervised learning techniques (e.g., logistic regression, random forests) and
   > Anomaly detection methods (e.g., isolation forest, one-class SVM)
 - Provides utilities for data preprocessing, feature engineering, and model evaluation.
 - Designed for flexibility and ease of use, suitable for both beginners and advanced users.
