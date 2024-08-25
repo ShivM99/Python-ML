@@ -1,0 +1,8 @@
+setup.py
+fraudlib/__init__.py
+fraudlib/myfunctions.py
+fraudlib.egg-info/PKG-INFO
+fraudlib.egg-info/SOURCES.txt
+fraudlib.egg-info/dependency_links.txt
+fraudlib.egg-info/requires.txt
+fraudlib.egg-info/top_level.txt
