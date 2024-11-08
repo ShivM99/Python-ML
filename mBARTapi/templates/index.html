@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Correction</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <h1>Grammar Correction with MBart</h1>
+    <form method="post">
+        <label for="text">Enter Text:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50">{{ text or '' }}</textarea><br><br>
+        <label for="lang_code">Select Language:</label>
+        <select id="lang_code" name="lang_code">
+            <option value="hi_IN">Hindi</option>
+            <option value="fr_XX">French</option>
+            <option value="es_XX">Spanish</option>
+        </select><br><br>
+        <button type="submit">Correct Grammar</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h2>Correction:</h2>
+        <div>{{ result|safe }}</div>
+    </div>
+    {% endif %}
+
+    <footer>
+        <p>Powered by FastAPI & MBart | Dark Theme Design</p>
+    </footer>
+</body>
+
+</html>
